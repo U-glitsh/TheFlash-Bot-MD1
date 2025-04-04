@@ -3,102 +3,90 @@ let handler = m => m
  let chat = global.db.data.chats[m.chat] 
   
  if (/^احا$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat,`*احــم احــم 😳*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat,`*عيب يبني*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
 await conn.sendMessage(m.chat, { react: { text: '🐧', key: m.key } })
   }
 
    if (/^عبيط|يا عبيط$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*تــنــمــر لــفــل ماكــس 😂*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*انت ابوك علمك كدا فالبيت؟*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
    }
    
    if (/^منور|منوره$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*ايــه الــنــور ده كــلــه 😘*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*-*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
 await conn.sendMessage(m.chat, { react: { text: '🥺', key: m.key } })
    }
     if (/^😂$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*تــدوم يــاض 😂*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat, `*تدوم ي قلبي*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 }
     if (/^كسمك$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*عــيــب يــاض 🗿😭*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat, `*كسم مين يبن المتناكة*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 await conn.sendMessage(m.chat, { react: { text: '🗿', key: m.key } })
 }
 
  if (/^يابوت|يا بوت$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*هممممم وش في انت كمان 🗿*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*نعم ي قلب البوت*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
 await conn.sendMessage(m.chat, { react: { text: '🗿', key: m.key } })
  } 
 
-   if (/^معطوب$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat,'*تــتــكلم عــن نــفــســك صـح؟ 😂*',m) //wm, null, [['Menu', '#menu']], m) botones :v
+   if (/^خخ$/i.test(m.text) ) { //sem prefixo 
+     conn.reply(m.chat,'*-*',m) //wm, null, [['Menu', '#menu']], m) botones :v
 await conn.sendMessage(m.chat, { react: { text: '😂', key: m.key } })
    }
 
    if (/^بوت خرا|بوت زفت|خرا عليك$/i.test(m.text) ) { //sem prefixo
-     conn.reply(m.chat,'  *دزهــا يــاض 😂🗿*',m) //wm, null, [['Menu','#menu']], m) botones :v
+     conn.reply(m.chat,'  *-*',m) //wm, null, [['Menu','#menu']], m) botones :v
 
    }
  if (/^بحبك|احبك$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*وانـا كـمـان 😂❤️*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat, `*انا اكتر ي قلبي*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
  } 
 
    if (/^بوت زق$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat,'*انــقــلــع بــس 😂💔*', m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat,'*-*', m) //wm, null, [['Menu', '#menu']], m) botones :V
 
    }
  if (/^همممم/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*اعــوز بـي الله مــنــك 😂💔*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat, `*همم اي ي حبيب قلبي*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
  } 
   
  if (/^امزح|بهزر$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*هــزر بــراحــتــك يــابــن قــلـبـي 😂❤️*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat, `*-*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
    } 
   
- if (/^في ايه$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*وربــنــا مــا اعــرف 🗿*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+ if (/^$/i.test(m.text) ) { //sem prefixo 
+     conn.reply(m.chat, `*-*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
  } 
   
  if (/^تست$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*شــغــالــة يــا روحــي 🥰❤️*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     conn.reply(m.chat, `*Playing*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
   
  } 
   
  if (/^صباح الخير$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*صــبــاح الــنــور  😘❤️*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*صباح النور*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
- if (/^انا جيت$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*مــنــور وربــنــا  😂❤️*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+ if (/^$/i.test(m.text) ) { //sem prefixo 
+     conn.reply(m.chat, `**`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   await conn.sendMessage(m.chat, { react: { text: '😂', key: m.key } })
  } 
   
  if (/^اخرس|اسكت$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*اخــرس انــت 🗿💔*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*اسكت انت*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
  if (/^حرامي|سارق$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `تتهم بريء بالسرقة 
- من دون تحري او بحث 
- عن حقيقة ليست ملموسة 
- ارحنا واعمل شرطي  
- ثم افتح فمك وثرثر 
- فكلامك كـجاهل واحد  
- بل جهلاً ارحم من حديثك 
- تتصنع دور الشرطي  
- وكأنك محقق 
- بالله اصمت ولا تحرج نفسك  
- ارحنا وارح أعصابك  
- ان اكرمك الله بعقل 
- فبسكوتك اقتل جهلك`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `ـ`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
   
  if (/^ملل|مللل|ملللل$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*مـلــلــل جــدد 😃💔*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*اوي*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
  
  } 
   
@@ -109,7 +97,7 @@ await conn.sendMessage(m.chat, { react: { text: '😂', key: m.key } })
  } 
      
  if (/^🤖$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `*هل انت بوت ياصحبي؟ 🗿*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `*يعم ماشي*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
 
  } 
      
