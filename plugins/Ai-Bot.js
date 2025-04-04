@@ -1,7 +1,7 @@
 //كود ديب-سيك ذكاء اصطناعي 📍
 // Channel>>> https://whatsapp.com/channel/0029Vb0WYOu2f3EAb74gf02h
 
-//By Mori-Dev 
+//By 7rB Alex -＄＄＄ 
 
 import fetch from 'node-fetch';
 
